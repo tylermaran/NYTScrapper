@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Scraping With Mongoose</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+    crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+
+<body>
+  <div class="container">
+    <!-- Jumbotron & Navbar row -->
+
+    <div class="row headRow">
+      <div id="background"></div>
+      <div class="jumbo">
+        <h1>News Stand</h1>
+        <!-- <p class="titleText">Find your favorite news sites, save articles, add notes.</p> -->
+        <div class="subhead">Search your favorite news sites, save articles, annotate.</div>
+      </div>
+
+      <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="/">Home</a>
+          </div>
+          <ul class="nav navbar-nav">
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#">My Sites
+                <span class="caret"></span>
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a href="#">New York Times</a>
+                </li>
+                <li>
+                  <a href="#">CNN</a>
+                </li>
+                <li>
+                  <a href="#">Washington Post</a>
+                </li>
+              </ul>
+            </li>
+            <li class="active">
+              <a href="#">Browse Articles</a>
+            </li>
+            <li>
+              <a href="#">My Saved Articles</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+
+    <div class="row mainContent" id="articles">
+
+    </div>
+
+ 
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="app.js"></script>
+</body>
+
+</html>
