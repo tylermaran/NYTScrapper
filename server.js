@@ -56,7 +56,7 @@ app.use(express.static("public"));
 // use promises (.then syntax) instead
 // Connect to the Mongo DB
 mongoose.Promise = Promise;
-mongoose.connect("mongodb://localhost/week18Populater", {
+mongoose.connect("mongodb://<themanmaran>:<password>@ds033056.mlab.com:33056/nytscrapper", {
   useMongoClient: true
 });
 
