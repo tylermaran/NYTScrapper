@@ -65,15 +65,15 @@ $(document).on("click", ".display-article", function () {
       // A button to submit a new note, with the id of the article saved to it
       newNote.append("<button data-id='" + data._id + "' id='savenote'>Save Note</button>");
 
-      $("#" + data._id).append(newNote);
-      console.log(thisId);
-      // If there's a note in the article
-      if (data.note) {
-        // Place the title of the note in the title input
-        $("#titleinput").val(data.note.title);
-        // Place the body of the note in the body textarea
-        $("#bodyinput").val(data.note.body);
-      }
+      // $("#" + data._id).append(newNote);
+      // console.log(thisId);
+      // // If there's a note in the article
+      // if (data.note) {
+      //   // Place the title of the note in the title input
+      //   $("#titleinput").val(data.note.title);
+      //   // Place the body of the note in the body textarea
+      //   $("#bodyinput").val(data.note.body);
+      // }
     });
 });
 

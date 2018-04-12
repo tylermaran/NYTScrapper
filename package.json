@@ -1,10 +1,11 @@
 {
-  "name": "nytmongo",
+  "name": "nytscrapper",
   "version": "1.0.0",
   "description": "Scrapes NYT articles into mongo",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -29,5 +30,6 @@
     "mongoose": "^5.0.12",
     "morgan": "^1.9.0",
     "request": "^2.85.0"
-  }
+  },
+  "devDependencies": {}
 }
