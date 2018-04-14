@@ -1,5 +1,4 @@
-
-body{
+body {
     font-family: 'Droid Serif', serif;
     font-size: 14px;
     color: #272424;
@@ -14,12 +13,13 @@ body{
 .navbar {
     border-radius: 0 0 0 0;
 }
-.jumbo {
 
+.jumbo {
     height: 140px;
     padding: 10px 10px 0px 10px;
     margin: 10px 10px 0px 10px;
 }
+
 #background {
     position: absolute;
     left: 0px;
@@ -32,10 +32,11 @@ body{
     background-image: url("./newspaper-background.jpg");
     opacity: 0.40;
     filter: alpha(opacity=40);
-    box-shadow:2px 2px 2px 2px #ebe4cc inset; 
+    box-shadow: 2px 2px 2px 2px #ebe4cc inset;
     border-bottom: 2px solid #2f2f2f;
     border-top: 2px solid #2f2f2f;
 }
+
 h1 {
     padding: 0px 0px 0px 0px;
     margin: 0px 0px 0px 0px;
@@ -45,10 +46,16 @@ h1 {
     text-transform: uppercase;
     text-align: center;
     opacity: 1.0;
-    
 }
 
-.subhead{
+h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 5px 0px;
+}
+
+.subhead {
     text-transform: uppercase;
     border-bottom: 2px solid #2f2f2f;
     border-top: 2px solid #2f2f2f;
@@ -56,9 +63,10 @@ h1 {
     font-weight: bold;
     text-align: center;
 }
+
 .display-article {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size:20px;
+    font-size: 20px;
     border-color: rgb(241, 241, 241);
     border-radius: 1px;
     border-width: 2px;
@@ -66,15 +74,16 @@ h1 {
     background-color: white;
     margin: 5px 0 10px 0;
     padding: 5px 5px 5px 5px;
-    box-shadow:3px 3px 3px 3px #7a786f; 
+    box-shadow: 3px 3px 3px 3px #7a786f;
 }
 
 .byline {
     font-family: 'Times New Roman', Times, serif;
     font-size: 15px;
-    font-style: italic;   
+    font-style: italic;
     color: #646464
 }
+
 .summary {
     font-family: 'Times New Roman', Times, serif;
     font-size: 15px;
@@ -87,4 +96,15 @@ h1 {
 
 .col-sm-8 {
     padding-left: 0px;
+}
+
+#titleinput {
+    float: left;
+    width: 100%;
+}
+
+#bodyinput {
+    float: left;
+    width: 100%;
+    height: auto;
 }
