@@ -32,7 +32,7 @@ app.use(express.static("public"));
 // use promises (.then syntax) instead
 // Connect to the Mongo DB
 mongoose.Promise = Promise;
-mongoose.connect(provess.env.MONGODB_URI || "mongodb://localhost/nytdatabase", {});
+mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/nytdatabase", {});
 
 // Routes
 
